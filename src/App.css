@@ -1,0 +1,143 @@
+/* App.css */
+
+/* Overall App Container */
+.App {
+  background-image: url('C:\Users\KIIT\Downloads\pngtree-scene-with-geometrical-forms-the-poster-model-minimal-background-render-image_452981.jpg');
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  min-height: 100vh; /* Ensures the background covers the whole viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Center-aligns text for a better look */
+  padding: 20px;
+}
+
+/* Form Styling */
+form {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Slightly larger shadow for a modern look */
+  max-width: 400px;
+  width: 100%;
+  margin: 20px auto;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for contrast */
+  color: white; /* White text color for contrast */
+}
+
+/* Label Styling */
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #61dafb;
+  font-weight: bold;
+}
+
+/* Input Styling */
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: calc(100% - 20px);
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Input Focus Styling */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+  outline: none;
+  border: 2px solid #61dafb;
+  background-color: #f0f0f0; /* Light background on focus */
+}
+
+/* Button Styling */
+button {
+  background-color: #61dafb;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Added transform for a subtle effect */
+}
+
+button:hover {
+  background-color: #21a1f1;
+  transform: scale(1.05); /* Slightly enlarges the button on hover */
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Form Title Styling */
+.form-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #61dafb;
+  margin-bottom: 20px;
+}
+
+/* Success Message Styling */
+.success-message {
+  color: green;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Code Container Styling */
+.code-container {
+  background-color: #282c34;
+  color: #abb2bf;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+  border-radius: 5px;
+  overflow-x: auto;
+  max-width: 100%; /* Ensures code container does not overflow the parent */
+}
+
+/* Syntax Highlighting */
+.code-container .keyword {
+  color: #c678dd;
+}
+
+.code-container .string {
+  color: #98c379;
+}
+
+.code-container .function {
+  color: #61afef;
+}
+
+.code-container .variable {
+  color: #e06c75;
+}
+
+/* Upload Container Styling */
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Upload Input Styling */
+.upload-container input {
+  margin-bottom: 10px;
+}
+
+/* Background Styling for Specific Container */
+.GeeksForGeeks {
+  background-image: url('');
+  background-size: cover;
+  height: 100vh;
+  margin-top: -70px;
+  font-size: 50px;
+  background-repeat: no-repeat;
+}
